@@ -29,6 +29,13 @@ class MathTest {
         steps.checkAnswer(5, steps.divNumbers(25, 5))
     }
 
+    @Test
+    fun sumSubTest() {
+        var result = steps.sumNumbers(10, 10)
+        result = steps.subNumbers(10, 20)
+        steps.checkAnswer(100, result)
+    }
+
 
 
 }
